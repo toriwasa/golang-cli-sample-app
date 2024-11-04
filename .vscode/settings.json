@@ -10,7 +10,7 @@
     // Git Blame のメッセージを行末に表示する
     "gitblame.inlineMessageEnabled": true,
     // Git Blame のメッセージ形式設定
-    "gitblame.messageFormat": "${author.name} (${time.ago}) ${commit.summary}",
+    "gitblame.inlineMessageFormat": "${author.name} (${time.ago}) ${commit.summary}",
     // 【Go言語固有の設定】
     "go.toolsManagement.checkForUpdates": "local",
     "go.useLanguageServer": true,
